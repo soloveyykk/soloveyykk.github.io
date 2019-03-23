@@ -416,7 +416,8 @@ h3 {
 		width: 360px;
 		height: 252px;
 		display: block;
-		padding: 0 10px;
+		padding-right: 15px;
+		padding-left: 13px;
 	}
 
 	.span__menu {
