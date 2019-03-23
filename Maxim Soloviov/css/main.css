@@ -1,0 +1,84 @@
+* {
+	outline: 2px solid orange;
+}
+
+header {
+	background: url("../img/header.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover; 
+	height: 100vh;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.container {
+	width: 1240px;
+	margin: 250px auto 0 auto;
+}
+
+.maket {
+	width: 280px;
+	margin: 0 auto;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}	
+.autho {
+	width: 400px;
+	background-color: #ffb400;
+}
+h4 {
+	color: #575a5d;
+	text-align: center;
+}
+.form>div {
+	margin: 0 auto;
+	width: 380px;
+}
+.form {
+	background-color: #ede0b7;
+	padding: 10px;
+	border-radius: 0 0 25px 25px;
+}
+.autho,
+.form {
+	display: inline-block;
+}
+
+button {
+	background-color: #cde5ef;
+	color: #527881;
+	border-radius: 15px;
+	padding: 20px 15px;
+	font-weight: bold;
+	margin-right: 110px;
+	margin-top: 20px;
+	float: right;
+	border: 1px solid #B4CCCE;
+}
+p {
+	text-align: center;
+	color: #fdf1ef;
+}
+h1 {
+	text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 360px;
+	margin: 10px 0;
+	border-radius: 5px;
+	padding: 8px;
+}
+
+input[type="checkbox"] {
+	margin: 10px 5px 10px 0;
+}
+
+label {
+	font-size: 15px;
+	color: #818485;
+}
+
