@@ -413,9 +413,10 @@ h3 {
 	}
 
 	.danger__zone {
-		width: 340px;
-    		height: 225px;
-   		display: block;;
+		width: 360px;
+		height: 252px;
+		display: block;
+		padding: 0 10px;
 	}
 
 	.span__menu {
@@ -524,8 +525,8 @@ h3 {
 @media (max-width: 375px) {
 	.danger__zone {
 		width: 335px;
-	    height: 240px;
-	    display: block;
+	  height: 240px;
+	  display: block;
 	}
 	  
 }
