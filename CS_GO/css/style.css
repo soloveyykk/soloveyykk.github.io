@@ -413,9 +413,9 @@ h3 {
 	}
 
 	.danger__zone {
-		width: 360px;
-		height: 252px;
-		display: block;
+		width: 350px;
+    		height: 234px;
+   		display: block;;
 	}
 
 	.span__menu {
