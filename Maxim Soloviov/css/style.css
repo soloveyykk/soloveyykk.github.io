@@ -348,13 +348,6 @@ h3 {
 }
 
 @media (max-width: 990px) {
-	a {
-		font-size: 15px;
-	}
-
-	.title__first {
-		font-size: 25px;
-	}
 
 	.danger__zone {
 		width: 570px;
@@ -410,15 +403,129 @@ h3 {
 
 }
 
-@media (max-width: 990px) {
+@media (max-width: 400px) {
+	a {
+		font-size: 15px;
+	}
+
 	.title__first {
-		font-size: 40px;
+		font-size: 20px;
 	}
 
 	.danger__zone {
-		width: 615px;
-		height: 340px;
+		width: 360px;
+		height: 252px;
 		display: block;
 	}
-	
+
+	.span__menu {
+		display: block;
+		content: '';
+		width: 100%;
+		height: 3px;
+		background-color: #fff;
+		position: absolute;
+		top: -20px;
+		bottom: 0;
+		left: 15px;
+		right: 0;
+		margin: auto;
+		transition: background .2s linear;
+	}
+
+	.button {
+		background: #ffb400;
+		color: #121010;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0 auto;
+		border-radius: 3px;
+		padding: 14px 10px;
+		text-decoration: none;
+		font-weight: 900;
+		margin-top: 70px;
+		display: block;
+		width: 285px;
+	}
+
+	.text {
+		font-size: 15px;
+	}
+
+	.mail {
+		display: none;
+	}
+
+
+	.credits {
+		position: absolute;
+		right: 0;
+		margin-right: 15px;
+		width: 100px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 414px) {
+	a {
+		font-size: 15px;
+	}
+
+	.title__first {
+		font-size: 20px;
+	}
+
+	.mail {
+		display: none;
+	}
+
+	.span__menu {
+		display: block;
+		content: '';
+		width: 100%;
+		height: 3px;
+		background-color: #fff;
+		position: absolute;
+		top: -20px;
+		bottom: 0;
+		left: 15px;
+		right: 0;
+		margin: auto;
+		transition: background .2s linear;
+	}
+
+	.button {
+		background: #ffb400;
+		color: #121010;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0 auto;
+		border-radius: 3px;
+		padding: 14px 10px;
+		text-decoration: none;
+		font-weight: 900;
+		margin-top: 70px;
+		display: block;
+		width: 285px;
+	}
+
+
+	.credits {
+		position: absolute;
+		right: 0;
+		margin-right: 15px;
+		width: 100px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 375px) {
+	.danger__zone {
+		width: 335px;
+	    height: 240px;
+	    display: block;
+	}
+	  
 }
