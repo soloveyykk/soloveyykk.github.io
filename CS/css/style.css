@@ -531,7 +531,7 @@ h3 {
 	  
 }
 
-@media (min-width: 375px) and (max-width: 600px) {
+@media (min-width: 375px) and (max-width: 720px) {
 	.danger__zone {
 		width: 335px;
 		height: 240px;
