@@ -1,0 +1,63 @@
+
+
+#first {
+
+	background: url("../img/header.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	height: 100vh;
+}
+
+.container {
+	width: 100%;
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.form {
+	width: 400px;
+	height: 460px;
+	margin: 25% auto 0 auto;
+	border-radius: 10px;
+
+	background-color: #d4d4d4 ;
+	opacity: .9;
+}
+
+.maket {
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}	
+legend {
+	width: 400px;
+	background-color: #ffb400;
+	padding: 40px;
+}
+
+
+label {
+	color:#fff;
+	font-size: 15px;
+}
+
+h6 {
+	font-weight: bold;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	margin: 10px 0;
+	border-radius: 5px;
+	padding: 8px;
+}
+
+button {
+	display: block;
+	position: relative;
+	left: 31%;
+}
+
