@@ -65,6 +65,14 @@ button {
 /* ВСЕ, КІНЕЦЬ КОДУ!!!!!!!!!!!!!!!!!*/
 
 @media (max-width: 990px) {
+	body {
+		background: url("../img/header.jpg") center no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+
+		height: 90vh;
+	}
+	
 	.form {
 		width: 500px;
 		height: 700px;
