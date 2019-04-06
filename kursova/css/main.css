@@ -1,0 +1,111 @@
+
+
+#first {
+
+	background: url("../img/header.jpg") no-repeat;
+	-webkit-background-size: cover;
+	background-position: center center;
+	background-size: cover;
+
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.container {
+	width: 100%;
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.form {
+	width: 400px;
+	height: 450px;
+	margin: 25% auto 0 auto;
+	border-radius: 10px;
+
+	background-color: #d4d4d4 ;
+	opacity: .9;
+}
+
+.maket {
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}	
+legend {
+	width: 400px;
+	background-color: #ffb400;
+}
+h6, h5{
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	margin: 10px 0;
+	border-radius: 5px;
+	padding: 8px;
+}
+
+input:focus::placeholder  {
+	text-indent: 500px;   
+	transition: text-indent 0.3s ease;
+}
+
+.button {
+	width: 150px;
+	margin: 0 auto;
+}
+
+.button a {
+	margin: 0 auto;
+}
+/* ВСЕ, КІНЕЦЬ КОДУ!!!!!!!!!!!!!!!!!*/
+
+@media (max-width: 990px) {
+	body {
+		background: url("../img/header.jpg") center no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+
+		height: 100vh;
+	}
+	
+	.form {
+		width: 500px;
+		height: 640px;
+		margin: 25% auto 0 auto;
+		border-radius: 10px;
+	
+		background-color: rgb(212, 212, 212, .8);
+	}
+
+	input[type="text"],
+	input[type="password"] {
+		width: 100%;
+		margin-top: 10px;
+		border-radius: 5px;
+		padding: 40px;
+	}
+
+	input:focus::placeholder  {
+		text-indent: 500px;   
+		transition: text-indent 0.3s ease;
+	}
+
+	input::placeholder {
+		font-size: 25px;
+	}
+
+	.form h6, h5 {
+		font-size: 32px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 740px) {
+	input::placeholder {
+		font-size: 30px;
+	}
+
+}
+
